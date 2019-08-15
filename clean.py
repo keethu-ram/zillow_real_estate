@@ -5,5 +5,15 @@ import sys
 
 df = pd.read_csv('Search.csv')
 
-indexNames = dfObj[ dfObj['Age'] == 30 ].index
-dfObj.drop(indexNames , inplace=True)
+#PRICE
+maxPrice = 0 #set maximum price
+indexPrice = df[ df['price'] >= maxPrice ].index
+df.drop(indexPrice , inplace=True)
+
+#LOCATION (comment out if not required)
+myCity = "Ithaca" #set city
+indexCity = df[ df['city'] != myCity ].index
+df.drop(indexCity , inplace=True)
+
+
+

@@ -87,4 +87,5 @@ if __name__=="__main__":
 		writer.writeheader()
 		for row in  scraped_data:
 			writer.writerow(row)
+		writer.to_csv("Search.csv", index=False, encoding='utf8')
 

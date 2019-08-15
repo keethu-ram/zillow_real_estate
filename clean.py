@@ -20,5 +20,5 @@ myFeatures = "3 bds , 2 ba" #edit number of bathrooms and bedrooms
 indexFeatures = df[ myFeatures is not in df['facts and features']].index
 df.drop(indexFeatures , inplace=True)
 
-
+df.to_csv("Final.csv", index=False, encoding='utf8')
 

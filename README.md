@@ -1,8 +1,6 @@
 # Zillow Real Estate Listing Scraper
 
-This script will scrape Zillow.com, an online real estate database to extract real estate listings available based on a zip code. 
-
-Additionally, filter results by user-inputted price, more specific location, and features (such as number of bedrooms and bathrooms and squarefeet)
+This script will scrape Zillow.com, an online real estate database to extract real estate listings available based on a zip code. Additionally, filter results by user-inputted price, more specific location, and features (such as number of bedrooms and bathrooms and squarefeet)
 
 ## Getting Started
 
